@@ -1,10 +1,10 @@
 package response
 
 import (
+	"field-service/constants"
 	"net/http"
-	"user-service/constants"
 
-	errConstant "user-service/constants/error"
+	errConstant "field-service/constants/error"
 
 	"github.com/gin-gonic/gin"
 )
